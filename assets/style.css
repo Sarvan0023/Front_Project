@@ -1,0 +1,38 @@
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+  }
+  .nav{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+  }
+  body{
+    width: 80%;
+    background-image: url(./images/banner-bg.jpg);
+    background-repeat: no-repeat;
+  }
+ section .mainleftcontent{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+ }
+ .button{
+display: flex;
+ }
+
+ .button i{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .button button{
+    background-color: transparent;
+    border: none;
+ }
